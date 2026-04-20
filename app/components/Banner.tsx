@@ -141,7 +141,7 @@ export default function Banner(): React.JSX.Element {
           <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">
             <span>Currently, I&apos;m a UX/UI Designer at</span>
             <span className="flex items-center gap-2">
-              <Image src={asset("/assets/webhr.webp")} alt="WebHR" width={20} height={20} className="w-5 h-5" style={{ width: "auto", height: "auto" }} />
+              <Image src={asset("/assets/webhr.webp")} alt="WebHR" width={20} height={20} className="w-5 h-5" />
               <span className="text-blue-400 font-semibold">WebHR,</span>
             </span>
           </p>
