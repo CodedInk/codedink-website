@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { asset } from "../lib/asset";
 
 export default function Banner(): React.JSX.Element {
-  const texts = ["Enterprise UI/UX Designer", "Product Design Leader"];
+  const texts = ["Enterprise UI/UX Designer", "Product Design Leader", "Design Systems Specialist"];
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
