@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { asset } from "../lib/asset";
 
 export default function Banner(): React.JSX.Element {
-  const texts = ["Software Engineer", "UI/UX Designer", "React Native Developer"];
+  const texts = ["Enterprise UI/UX Designer", "Product Design Leader"];
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -77,7 +77,7 @@ export default function Banner(): React.JSX.Element {
               </div>
               <Image
                 src={asset("/assets/me.png")}
-                alt="Ross Taylor - Software Engineer and Designer"
+                alt="Ross Taylor - Enterprise UX/UI and Product Designer"
                 width={300}
                 height={300}
                 className="max-w-md absolute"
@@ -86,7 +86,7 @@ export default function Banner(): React.JSX.Element {
               />
               <Image
                 src={asset("/assets/me-glow.png")}
-                alt="Ross Taylor - Software Engineer and Designer"
+                alt="Ross Taylor - Enterprise UX/UI and Product Designer"
                 width={300}
                 height={300}
                 className="max-w-md "
@@ -141,12 +141,12 @@ export default function Banner(): React.JSX.Element {
           <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">
             <span>Currently, I&apos;m a UX/UI Designer at</span>
             <span className="flex items-center gap-2">
-              <Image src={asset("/assets/webhr.webp")} alt="WebHR" width={20} height={20} className="w-5 h-5" />
-              <span className="text-blue-400 font-semibold">WebHR,</span>
+              <Image src={asset("/logo/logo.svg")} alt="CodedInk" width={20} height={20} className="w-5 h-5" />
+              <span className="text-blue-400 font-semibold">CodedInk,</span>
             </span>
           </p>
           <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
-            A self-taught UI/UX designer, functioning in the industry for 24+
+            A self-taught UX/UI designer, functioning in the industry for 24+
             years now. I make meaningful and delightful digital products that
             create an equilibrium between user needs and business goals.
           </p>
