@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { asset } from "../lib/asset";
 
 interface Project {
   id: number;
@@ -89,7 +90,7 @@ export default function Projects(): React.JSX.Element {
                   <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-slate-950 p-2 lg:p-3 shadow-2xl">
                     <div className="relative w-full h-full rounded-lg overflow-hidden">
                       <Image
-                        src={project.image}
+                        src={asset(project.image)}
                         alt={project.title}
                         fill
                         sizes="(max-width: 1024px) 100vw, 50vw"

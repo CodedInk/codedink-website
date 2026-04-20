@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { asset } from "../lib/asset";
 
 interface ExperienceCard {
   id: number;
@@ -50,7 +51,7 @@ export default function Experience(): React.JSX.Element {
             >
               <div className="mb-4 ">
                 <Image
-                  src={card.icon}
+                  src={asset(card.icon)}
                   alt={card.title}
                   width={160}
                   height={160}

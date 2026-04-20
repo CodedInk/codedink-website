@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
+import { asset } from "../lib/asset";
 
 export default function Banner(): React.JSX.Element {
   const texts = ["Software Engineer", "UI/UX Designer", "React Native Developer"];
@@ -58,7 +59,7 @@ export default function Banner(): React.JSX.Element {
               <div className="lg:hidden  -top-150 z-10">
                 <div className="relative inline-block ">
                   <Image
-                    src="/assets/arrow.png"
+                    src={asset("/assets/arrow.png")}
                     alt="Arrow pointer"
                     width={80}
                     height={80}
@@ -75,7 +76,7 @@ export default function Banner(): React.JSX.Element {
                 </div>
               </div>
               <Image
-                src="/assets/me.png"
+                src={asset("/assets/me.png")}
                 alt="Ross Taylor - Software Engineer and Designer"
                 width={300}
                 height={300}
@@ -84,7 +85,7 @@ export default function Banner(): React.JSX.Element {
                 priority
               />
               <Image
-                src="/assets/me-glow.png"
+                src={asset("/assets/me-glow.png")}
                 alt="Ross Taylor - Software Engineer and Designer"
                 width={300}
                 height={300}
@@ -98,7 +99,7 @@ export default function Banner(): React.JSX.Element {
             {/* Desktop: Hello text in original position */}
             <div className="hidden lg:inline-block relative">
               <Image
-                src="/assets/arrow.png"
+                src={asset("/assets/arrow.png")}
                 alt="Arrow pointer"
                 width={100}
                 height={100}
@@ -119,7 +120,7 @@ export default function Banner(): React.JSX.Element {
                 Judges a book
                 <br /> by its{" "}
                 <span className="relative inline-block">
-                  <Image src="/assets/circle.png" alt="Circle" width={200} height={200} className="absolute mt-2" />
+                  <Image src={asset("/assets/circle.png")} alt="Circle" width={200} height={200} className="absolute mt-2" />
                   <span className="bg-gradient-to-r from-violet-600 via-violet-400 to-violet-600 bg-clip-text text-transparent">
                     cover
                   </span>
@@ -140,7 +141,7 @@ export default function Banner(): React.JSX.Element {
           <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">
             <span>Currently, I&apos;m a UX/UI Designer at</span>
             <span className="flex items-center gap-2">
-              <Image src="/assets/webhr.webp" alt="WebHR" width={20} height={20} className="w-5 h-5" style={{ width: "auto", height: "auto" }} />
+              <Image src={asset("/assets/webhr.webp")} alt="WebHR" width={20} height={20} className="w-5 h-5" style={{ width: "auto", height: "auto" }} />
               <span className="text-blue-400 font-semibold">WebHR,</span>
             </span>
           </p>

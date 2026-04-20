@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { asset } from "../lib/asset";
 
 export default function Footer(): React.JSX.Element {
   return (
@@ -32,7 +33,7 @@ export default function Footer(): React.JSX.Element {
             aria-label="Instagram"
           >
             <Image
-              src="/assets/insta.webp"
+              src={asset("/assets/insta.webp")}
               alt="Instagram"
               width={20}
               height={20}
