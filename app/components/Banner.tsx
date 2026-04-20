@@ -80,7 +80,7 @@ export default function Banner(): React.JSX.Element {
                 alt="Ross Taylor - Software Engineer and Designer"
                 width={300}
                 height={300}
-                className=" max-w-md absolute"
+                className="max-w-md absolute"
                 style={{ width: "auto", height: "auto" }}
                 priority
               />
@@ -89,7 +89,7 @@ export default function Banner(): React.JSX.Element {
                 alt="Ross Taylor - Software Engineer and Designer"
                 width={300}
                 height={300}
-                className="max-w-md "
+                className="max-w-sm"
                 style={{ width: "auto", height: "auto" }}
                 priority
               />
