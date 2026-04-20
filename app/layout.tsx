@@ -12,34 +12,32 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-  description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+  title: "Ross Taylor - UI/UX Design Leader",
+  description: "UI/UX Design Leader crafting meaningful, accessible digital products that balance user needs and business goals.",
   keywords: [
-    "Ibrahim Memon",
-    "Software Engineer",
+    "Ross Taylor",
+    "CodedInk",
+    "UI/UX Design Leader",
     "UI/UX Designer",
-    "Frontend Developer",
-    "React Developer",
-    "Next.js Developer",
-    "Web Designer",
-    "WebHR Engineer",
+    "Product Designer",
+    "Design Leadership",
     "Portfolio",
   ],
-  authors: [{ name: "Ibrahim Memon" }],
-  creator: "Ibrahim Memon",
-  publisher: "Ibrahim Memon",
+  authors: [{ name: "Ross Taylor" }],
+  creator: "Ross Taylor",
+  publisher: "Ross Taylor",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ibiimemon.com",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
-    siteName: "Ibrahim Memon Portfolio",
+    url: "https://codedink.github.io/codedink-website/",
+    title: "Ross Taylor - UI/UX Design Leader",
+    description: "UI/UX Design Leader crafting meaningful, accessible digital products.",
+    siteName: "Ross Taylor - CodedInk",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "Ross Taylor - UI/UX Design Leader",
+    description: "UI/UX Design Leader crafting meaningful, accessible digital products.",
   },
   robots: {
     index: true,
@@ -68,7 +66,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://ibiimemon.com" />
+        <link rel="canonical" href="https://codedink.github.io/codedink-website/" />
       </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}
