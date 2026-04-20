@@ -18,14 +18,14 @@ const experienceCards: ExperienceCard[] = [
   },
   {
     id: 2,
-    title: "WebHR Kiosk - Time Clock Kiosk",
+    title: "TDS Telecom - Time Clock Kiosk",
     description: "WebHR Kiosk is a time clock kiosk that allows you to clock in and out of your work. It is a simple and easy to use app that allows you to clock in and out of your work.",
     icon: "/cards/card-2.png",
   },
   {
     id: 3,
-    title: "Somezing - AI-Powered Agents",
-    description: "Somezing is a AI-Powered Agents to Automate Your Workflows. It is a simple and easy to use app that allows you to automate your workflows.",
+    title: "HealthEdge - AI-Powered Agents",
+    description: "Connecting health plans, providers, and patients with end-to-end digital technology solutions to support new business models, reduce administrative costs and improve health outcomes.",
     icon: "/cards/card-3.png",
   },
   {
