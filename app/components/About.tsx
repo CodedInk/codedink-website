@@ -100,7 +100,7 @@ export default function About(): React.JSX.Element {
               aria-hidden="true"
             />
             <Image
-              src={asset("/assets/drop.svg")}
+              src={asset("/assets/codedink-drop-icon.svg")}
               alt="CodedInk"
               width={140}
               height={140}
@@ -108,7 +108,7 @@ export default function About(): React.JSX.Element {
               style={{
                 left: "50%",
                 top: "36%",
-                width: "15%",
+                width: "11%",
                 height: "auto",
                 transform: "translate(-50%, -50%)",
               }}

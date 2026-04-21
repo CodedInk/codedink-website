@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_eval",
+      "mcp__Claude_Preview__preview_screenshot",
+      "mcp__Claude_Preview__preview_inspect",
+      "mcp__Claude_Preview__preview_console_logs",
+      "mcp__Claude_Preview__preview_list",
+      "mcp__b2667daa-b62c-4322-b9f8-17df1038054b__get_design_context",
+      "mcp__b2667daa-b62c-4322-b9f8-17df1038054b__get_variable_defs"
+    ]
+  }
+}
