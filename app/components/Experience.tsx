@@ -12,9 +12,9 @@ interface ExperienceCard {
 const experienceCards: ExperienceCard[] = [
   {
     id: 1,
-    title: "WIPRO - Principal UX Consultant",
-    description: "WIPRO is a leading multinational corporation providing IT, consulting, and business process services with a strong focus on AI, cloud computing, and digital transformation.",
-    icon: "/cards/card-1.png",
+    title: "GLINT - Principal UX/UI Designer",
+    description: "GLINT is a native AI-powered software (agentic) development environment that enables issue-driven workflows, allowing developers to manage GitHub issues, code, and AI agents simultaneously.",
+    icon: "/cards/card-1.svg",
   },
   {
     id: 2,
