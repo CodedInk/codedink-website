@@ -12,26 +12,26 @@ interface ExperienceCard {
 const experienceCards: ExperienceCard[] = [
   {
     id: 1,
-    title: "WIPRO - HR Management App",
-    description: "WebHR automates all of your company's HR processes such as Recruitment, Onboarding, Payroll, Time & Attendance, Leaves & PTO, Performance, and much more.",
+    title: "WIPRO - Principal UX Consultant",
+    description: "WIPRO is a leading multinational corporation providing IT, consulting, and business process services with a strong focus on AI, cloud computing, and digital transformation.",
     icon: "/cards/card-1.png",
   },
   {
     id: 2,
-    title: "TDS Telecom - Time Clock Kiosk",
-    description: "WebHR Kiosk is a time clock kiosk that allows you to clock in and out of your work. It is a simple and easy to use app that allows you to clock in and out of your work.",
+    title: "TDS Telecom - Senior UX/UI Designer",
+    description: "TDS Telecom (TDS®) delivers high-speed internet, TV entertainment, and phone services to a mix of small to mid-sized urban, suburban and rural communities.",
     icon: "/cards/card-2.png",
   },
   {
     id: 3,
-    title: "HealthEdge - AI-Powered Healthcare Platform",
-    description: "HealthEdge, is a AI-enabled platform for healthcare payers connecting health plans, providers, and patients. It offers end-to-end digital solutions that automate operations and serve over 115 health plans and 110 million covered members across the U.S.. ",
+    title: "HealthEdge - Lead UX/UI Designer",
+    description: "HealthEdge, is a AI-Powered Healthcare Platform for payers connecting health plans, providers, and patients. It offers end-to-end digital solutions that automate operations and serve over 115 health plans and 110 million covered members across the U.S.. ",
     icon: "/cards/card-3.png",
   },
   {
     id: 4,
-    title: "Aflac© - Supplemental Insurance Provider",
-    description: "Aflac specializes in voluntary supplemental insurance.. Based in Columbus, Georgia, it is a Fortune 500 company serving millions of policyholders in the U.S. and Japan.",
+    title: "Aflac© - Lead UX/UI Designer (COE Team) ",
+    description: "Aflac specializes in voluntary supplemental insurance. Based in Columbus, Georgia, it is a Fortune 500 company serving millions of policyholders in the U.S. and Japan.",
     icon: "/cards/card-4.png",
   },
 ];
