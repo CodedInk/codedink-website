@@ -70,7 +70,10 @@ export default function Footer(): React.JSX.Element {
           </Link>
         </div>
 
-        <div className="text-center mt-12 pt-8 border-t border-white/10">
+        <div
+          className="text-center mt-12 pt-8 border-t border-red-500/25"
+          style={{ boxShadow: "0 -4px 16px rgba(220, 38, 38, 0.15)" }}
+        >
           <p className="text-white/60 text-sm">
             © 2004-{new Date().getFullYear()} Ross Taylor. Powered by Me, obviously. All rights reserved.
           </p>
