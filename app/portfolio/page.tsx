@@ -94,10 +94,10 @@ export default function Portfolio(): React.JSX.Element {
             </h1>
 
             <p className="text-white/80 text-center leading-relaxed mb-6">
-              Most of my best work lives under signed NDAs with Fortune 500
-              clients. I can&apos;t drop screenshots into a public gallery
-              without summoning a legal team, so everything sensitive sits
-              behind this little red door.
+              Most of my best work lives under signed NDAs with Enterprise and
+              Fortune 500 clients. I can&apos;t drop screenshots into a public
+              gallery without summoning a legal team, so everything sensitive
+              sits behind this little red door.
             </p>
 
             <div className="bg-white/5 border border-white/10 rounded-xl p-4 mb-6 text-sm text-white/75 space-y-2">
