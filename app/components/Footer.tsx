@@ -27,7 +27,7 @@ export default function Footer(): React.JSX.Element {
             href="https://www.instagram.com/kasper_taylor/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-red-500/30 hover:border-red-500/50 transition-all"
+            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-all"
             aria-label="Instagram"
           >
             <svg
@@ -42,7 +42,7 @@ export default function Footer(): React.JSX.Element {
             href="https://github.com/codedink"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-red-500/30 hover:border-red-500/50 transition-all"
+            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-all"
             aria-label="GitHub"
           >
             <svg
@@ -57,7 +57,7 @@ export default function Footer(): React.JSX.Element {
             href="https://www.linkedin.com/in/codedink/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-red-500/30 hover:border-red-500/50 transition-all"
+            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-all"
             aria-label="LinkedIn"
           >
             <svg
