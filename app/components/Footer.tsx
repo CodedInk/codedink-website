@@ -4,10 +4,10 @@ export default function Footer(): React.JSX.Element {
   return (
     <footer
       id="contact"
-      className="py-10 px-6 border-t border-red-500/70"
+      className="py-10 px-6 border-t border-red-400"
       style={{
         boxShadow:
-          "0 0 4px rgba(239, 68, 68, 0.8), 0 0 12px rgba(239, 68, 68, 0.5), 0 0 24px rgba(239, 68, 68, 0.25)",
+          "0 -1px 0 rgba(255, 230, 230, 0.95), 0 0 6px rgba(255, 120, 140, 1), 0 0 18px rgba(239, 68, 68, 0.9), 0 0 36px rgba(239, 68, 68, 0.6), 0 0 72px rgba(220, 38, 38, 0.35)",
       }}
     >
       <div className="container mx-auto max-w-6xl">
