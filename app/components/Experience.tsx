@@ -53,10 +53,10 @@ export default function Experience(): React.JSX.Element {
                 <Image
                   src={asset(card.icon)}
                   alt={card.title}
-                  width={62}
-                  height={62}
+                  width={75}
+                  height={75}
                   className="object-contain"
-                  style={{ width: "62px", height: "62px" }}
+                  style={{ width: "75px", height: "75px" }}
                 />
               </div>
               <div>
