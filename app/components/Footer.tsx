@@ -2,7 +2,11 @@ import Link from "next/link";
 
 export default function Footer(): React.JSX.Element {
   return (
-    <footer id="contact" className="py-10 px-6 border-t border-red-500/20">
+    <footer
+      id="contact"
+      className="py-10 px-6 border-t border-red-500/20"
+      style={{ boxShadow: "0 -6px 20px rgba(0, 0, 0, 0.5)" }}
+    >
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
