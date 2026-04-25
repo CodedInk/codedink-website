@@ -8,9 +8,9 @@ export default function Header(): React.JSX.Element {
       className="fixed top-0 left-0 right-0 z-50 bg-[#110720]/80 backdrop-blur-sm border-b border-red-500/25"
       style={{ boxShadow: "0 4px 16px rgba(220, 38, 38, 0.15)" }}
     >
-      <nav className="px-6 py-3 lg:py-4">
-        <div className="container mx-auto max-w-6xl flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2 lg:gap-0">
-          <div className="flex justify-center lg:justify-start">
+      <nav className="px-6 py-3 landscape:py-4">
+        <div className="container mx-auto max-w-6xl flex flex-col landscape:flex-row landscape:items-center landscape:justify-between gap-2 landscape:gap-0">
+          <div className="flex justify-center landscape:justify-start">
             <Link
               href="/"
               className="font-bold text-white hover:text-red-400 transition-colors inline-block"
@@ -24,7 +24,7 @@ export default function Header(): React.JSX.Element {
               />
             </Link>
           </div>
-          <ul className="flex items-center justify-center lg:justify-end gap-5 sm:gap-8 list-none m-0 p-0">
+          <ul className="flex items-center justify-center landscape:justify-end gap-5 sm:gap-8 list-none m-0 p-0">
             <li className="m-0 p-0">
               <Link
                 href="/#home"
