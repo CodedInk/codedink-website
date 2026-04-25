@@ -39,26 +39,26 @@ const cases: CaseStudy[] = [
     id: "wipro",
     company: "WIPRO",
     role: "Principal UX Consultant",
-    period: "2024 — Present",
+    period: "Apr 2022 — Apr 2023",
     hook:
-      "Drove enterprise-scale UX direction across multi-million-dollar consulting engagements with Fortune 500 clients.",
-    tags: ["Enterprise UX", "AI / Cloud", "Digital Transformation", "Consulting"],
+      "Directed UX engagements for TD Bank, Estée Lauder, and FedEx — turning Fortune 500 ambition into shipping product.",
+    tags: ["Enterprise UX", "Fortune 500", "Salesforce Lightning", "E-commerce"],
     problem:
-      "Large enterprise clients were stuck between legacy workflows and modern AI/cloud expectations — internal tools were fragmented, user research was thin, and shipping required alignment across product, engineering, and a dozen stakeholders.",
+      "Three very different Fortune 500 clients with one shared symptom: digital surfaces that didn't match their brand promise. TD Bank's mobile banking was leaking transactions. Estée Lauder's global e-commerce wasn't converting. FedEx had a UX modernization to land. Each needed senior direction, fast, with no time to ramp.",
     approach: [
-      "Embedded with cross-functional teams to map current vs. future-state journeys",
-      "Ran lightweight discovery: stakeholder interviews, contextual inquiry, JTBD framing",
-      "Translated AI capabilities into UX patterns the existing user base could actually adopt",
-      "Built reference flows + tokens designers across the engagement could reuse",
+      "Plugged into each client's product + engineering teams as a Principal — not a contractor on the bench",
+      "TD Bank: rebuilt the mobile banking flow on Salesforce Lightning Design System",
+      "Estée Lauder: re-architected the global e-commerce experience around real conversion friction",
+      "Held a portfolio view across 5 enterprise projects and a $5M+ engagement book",
     ],
     solution:
-      "Modular UX system that worked across multiple client engagements, with playbooks for AI-augmented workflows, design QA gates, and handoff specs that engineering could ship without backtracking.",
+      "Senior UX leadership embedded into each engagement — fast, opinionated, accountable to outcomes — with reusable patterns and design QA so the wins stuck after I left the room.",
     outcome:
-      "Faster time-to-design across parallel engagements, fewer handoff defects, and a repeatable framework other consultants could plug into.",
+      "Three Fortune 500 clients, three measurable lifts, and a 95% client satisfaction rate across the portfolio.",
     metrics: [
-      { value: "$5M+", label: "Consulting engagements managed" },
-      { value: "Multiple", label: "Fortune 500 clients" },
-      { value: "F500", label: "Enterprise scale" },
+      { value: "$12M", label: "Added quarterly revenue (Estée Lauder)" },
+      { value: "32%", label: "Mobile banking adoption lift (TD Bank)" },
+      { value: "95%", label: "Client satisfaction across 5 projects" },
     ],
     visuals: 4,
   },
@@ -66,9 +66,9 @@ const cases: CaseStudy[] = [
     id: "tds-telecom",
     company: "TDS Telecom",
     role: "Senior UX/UI Designer",
-    period: "2022 — 2024",
+    period: "2024 — Present",
     hook:
-      "Modernized a legacy advisor tooling stack used daily across small to mid-size urban, suburban, and rural markets.",
+      "Modernizing a legacy advisor tooling stack used daily across small to mid-size urban, suburban, and rural markets.",
     tags: ["Internal Tools", "Service Design", "Workflow Modernization"],
     problem:
       "Advisors were bouncing across half a dozen disconnected tools to resolve a single customer issue. The current-state flow was exhausting, error-prone, and slowed every metric the business cared about.",
@@ -83,9 +83,9 @@ const cases: CaseStudy[] = [
     outcome:
       "Advisors hit resolution faster, made fewer wrong-tool detours, and the team could finally measure the work because the flow was unified.",
     metrics: [
-      { value: "45%", label: "Increase in user engagement" },
-      { value: "30%", label: "Reduction in bounce rates" },
-      { value: "1M+", label: "Monthly active users impacted" },
+      { value: "Multi-tool", label: "Consolidated into one pane" },
+      { value: "Faster", label: "Resolution path" },
+      { value: "Service-wide", label: "Advisor footprint" },
     ],
     visuals: 4,
   },
@@ -93,26 +93,26 @@ const cases: CaseStudy[] = [
     id: "healthedge",
     company: "HealthEdge",
     role: "Lead UX/UI Designer",
-    period: "2020 — 2022",
+    period: "Apr 2023 — Nov 2024",
     hook:
-      "Designed AI-powered digital experiences for a healthcare platform serving 110M+ covered members across 115+ health plans.",
-    tags: ["Healthcare", "AI", "Platform UX", "B2B"],
+      "Led UX strategy across Claims Processing, Integration, Data Science, and Help Center — modernizing a healthcare platform serving major payers and providers.",
+    tags: ["Healthcare", "Platform UX", "B2B + B2C", "Claims Processing"],
     problem:
-      "The platform connected health plans, providers, and patients — but admin operations were manual, complex, and tied up specialist time on tasks that AI could surface or pre-resolve. The UX had to make AI feel like a teammate, not a black box.",
+      "A high-stakes B2B/B2C healthcare platform had grown faster than its UX could keep up. Claims teams were stuck in slow processes, integration tooling was inconsistent, and there was no shared definition of what good UX even looked like across product lines.",
     approach: [
-      "Studied the day-in-the-life of plan admins, claims specialists, and care coordinators",
-      "Designed AI-assist surfaces that always showed reasoning + a manual override path",
-      "Worked with engineering to define what the model could safely automate vs. recommend",
-      "Held the line on accessibility and clarity in a regulated, high-stakes domain",
+      "Led platform-wide UX modernization across four value streams",
+      "Established the company's first UX metrics framework via a systematic platform audit",
+      "Reframed claims processing UX around the actual time-to-decision specialists needed",
+      "Created actionable benchmarks teams could measure feature adoption against",
     ],
     solution:
-      "A series of AI-augmented admin screens with explainable recommendations, action-confidence indicators, and one-tap overrides — so specialists stayed in control while moving 2-3x faster.",
+      "A unified UX direction with measurable benchmarks, modernized claims and integration surfaces, and a metrics framework that turned 'feels better' into provable lifts.",
     outcome:
-      "Admin operations got measurably faster on the workflows we touched, and trust in the AI features grew over time as users saw the system was transparent.",
+      "Customer satisfaction up, claims processing time down, and a feature adoption story that finally had numbers behind it.",
     metrics: [
-      { value: "115+", label: "Health plans served" },
-      { value: "110M+", label: "Covered members" },
-      { value: "End-to-end", label: "Digital solutions" },
+      { value: "37%", label: "Increase in customer satisfaction" },
+      { value: "45%", label: "Reduction in claims processing time" },
+      { value: "55%", label: "Improvement in feature adoption" },
     ],
     visuals: 5,
   },
@@ -120,26 +120,26 @@ const cases: CaseStudy[] = [
     id: "aflac",
     company: "Aflac",
     role: "Lead UX/UI Designer (COE Team)",
-    period: "2018 — 2020",
+    period: "Sep 2019 — Feb 2022",
     hook:
-      "Led design on Center-of-Excellence initiatives for a Fortune 500 supplemental insurance provider serving millions of policyholders in the U.S. and Japan.",
-    tags: ["Insurance", "Design System", "COE"],
+      "Directed UX/UI strategy across Claims Intake, Employee Benefits, HR, and the Leave Forecaster — serving 50M+ policyholders.",
+    tags: ["Insurance", "B2C Enterprise", "AI Forecasting", "Design System"],
     problem:
-      "Multiple product teams were each shipping their own version of the same patterns. Brand and accessibility drifted, dev cycles bloated, and customer-facing screens looked like they came from different companies.",
+      "Aflac's enterprise platforms touched 50M+ policyholders, but core flows like benefits enrollment and HR leave management were still slow, manual, and hard for both employees and admins. The COE team needed to lead the next wave of digital transformation across multiple value streams at once.",
     approach: [
-      "Audited the existing component sprawl across product teams",
-      "Built a shared design system with tokens, accessibility baked in, and clear governance",
-      "Partnered with engineering to ship a matching component library",
-      "Set up adoption rituals: office hours, contribution paths, design QA",
+      "Owned UX/UI strategy across four enterprise value streams as a COE lead",
+      "Rebuilt the employee benefits enrollment flow around real time-to-completion data",
+      "Designed the Leave Forecaster — an AI-assisted tool predicting employee absences with high accuracy",
+      "Embedded usability and accessibility as non-negotiable defaults across the COE",
     ],
     solution:
-      "A COE-owned design system used by multiple product teams with documented patterns, accessible defaults, and a contribution model so teams could extend without forking.",
+      "A modernized benefits enrollment flow that finished much faster, plus a Leave Forecaster tool that gave HR teams predictive power they didn't have before.",
     outcome:
-      "Visual consistency across products, faster shipping for teams that adopted the system, and a repeatable model for the next wave of products.",
+      "Faster enrollments, higher benefits adoption, and HR teams that could now plan for absences instead of reacting to them.",
     metrics: [
-      { value: "Fortune 500", label: "Scale" },
-      { value: "Millions", label: "Policyholders" },
-      { value: "U.S. + JP", label: "Markets" },
+      { value: "75%", label: "Faster benefits enrollment" },
+      { value: "92%", label: "Leave Forecaster accuracy" },
+      { value: "45%", label: "Admin overhead reduction" },
     ],
     visuals: 3,
   },
@@ -253,12 +253,33 @@ function PortfolioContent(): React.JSX.Element {
           <h1 className="text-5xl lg:text-7xl font-semibold tracking-tight mb-5">
             Portfolio
           </h1>
-          <p className="text-xl text-white/85 max-w-3xl leading-relaxed">
-            Four engagements, one through-line: take a tangled enterprise
-            problem and ship a clearer, faster, more usable answer. Every case
-            below leads with the problem, the approach, the outcome, and the
-            numbers.
+          <p className="text-xl text-white/85 max-w-3xl leading-relaxed mb-8">
+            Product Design Leader. Enterprise UX/UI. Design Systems.
+            AI-driven product experiences. Each case below leads with the
+            problem, the approach, the outcome, and the numbers.
           </p>
+          <div className="border-t border-white/10 pt-6">
+            <p className="text-xs uppercase tracking-widest text-white/50 mb-3">
+              Past work spans
+            </p>
+            <div className="flex flex-wrap gap-x-6 gap-y-2 text-white/70 text-sm">
+              {[
+                "TD Bank",
+                "FedEx",
+                "Estée Lauder",
+                "American Express",
+                "Aflac",
+                "HealthEdge",
+                "BYUtv",
+                "Vans Warped Tour",
+              ].map((c) => (
+                <span key={c} className="flex items-center gap-2">
+                  <span className="w-1 h-1 rounded-full bg-red-400" />
+                  {c}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
