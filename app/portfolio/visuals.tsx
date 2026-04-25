@@ -260,9 +260,63 @@ export function GenericVisual({ seed }: { seed: number }): React.JSX.Element {
   );
 }
 
+export function PointClickCareVisual(): React.JSX.Element {
+  return (
+    <svg
+      viewBox="0 0 400 300"
+      className="w-full h-full"
+      aria-hidden="true"
+      preserveAspectRatio="xMidYMid slice"
+    >
+      <defs>
+        <linearGradient id="pcc-bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stopColor="#1a0a1a" />
+          <stop offset="100%" stopColor="#3c0a14" />
+        </linearGradient>
+      </defs>
+      <rect width="400" height="300" fill="url(#pcc-bg)" />
+      {/* Stylized EMR / chart record card */}
+      <g transform="translate(80,70)">
+        <rect width="240" height="160" rx="10" fill="#3c0a14" stroke="#fb7185" strokeWidth="1" />
+        {/* Header bar */}
+        <rect x="0" y="0" width="240" height="36" rx="10" fill="#7f1d1d" />
+        <circle cx="22" cy="18" r="9" fill="#fb7185" />
+        <rect x="38" y="13" width="80" height="5" rx="2" fill="#fff" opacity="0.85" />
+        <rect x="38" y="22" width="50" height="3" rx="1" fill="#fff" opacity="0.5" />
+        {/* Vital lines */}
+        <rect x="14" y="50" width="60" height="4" rx="1" fill="#fb7185" opacity="0.85" />
+        <rect x="14" y="60" width="180" height="3" rx="1" fill="#fff" opacity="0.35" />
+        <rect x="14" y="68" width="160" height="3" rx="1" fill="#fff" opacity="0.35" />
+        <rect x="14" y="76" width="200" height="3" rx="1" fill="#fff" opacity="0.35" />
+        {/* Pulse mini-chart */}
+        <path
+          d="M 14,110 L 60,110 L 70,90 L 80,130 L 90,110 L 140,110 L 150,100 L 160,120 L 170,110 L 226,110"
+          stroke="#fb7185"
+          strokeWidth="1.8"
+          fill="none"
+        />
+        {/* Action chips */}
+        <rect x="14" y="135" width="44" height="14" rx="3" fill="#ef4444" opacity="0.9" />
+        <rect x="64" y="135" width="56" height="14" rx="3" fill="none" stroke="#fb7185" strokeWidth="1" />
+        <rect x="126" y="135" width="36" height="14" rx="3" fill="none" stroke="#fb7185" strokeWidth="1" />
+      </g>
+      {/* Floating particles */}
+      {[
+        { x: 30, y: 40 },
+        { x: 360, y: 60 },
+        { x: 50, y: 250 },
+        { x: 350, y: 240 },
+      ].map((p, i) => (
+        <circle key={i} cx={p.x} cy={p.y} r="3" fill="#fb7185" opacity="0.6" />
+      ))}
+    </svg>
+  );
+}
+
 export const heroByCaseId: Record<string, () => React.JSX.Element> = {
-  wipro: WiproVisual,
   "tds-telecom": TdsVisual,
+  pointclickcare: PointClickCareVisual,
   healthedge: HealthEdgeVisual,
+  wipro: WiproVisual,
   aflac: AflacVisual,
 };
