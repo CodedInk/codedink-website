@@ -117,18 +117,19 @@ export default function Banner(): React.JSX.Element {
             <div className="">
               <p className="text-2xl"> A Designer who </p>
               <h1 className="text-5xl tracking-tight lg:text-7xl font-semibold text-white leading-tight">
-                Judges a book
-                <br /> by its{" "}
+                Designs the click
+                <br /> before the{" "}
                 <span className="relative inline-block">
                   <Image src={asset("/assets/circle.png")} alt="Circle" width={200} height={200} className="absolute mt-2" />
                   <span className="bg-gradient-to-r from-red-600 via-rose-400 to-red-600 bg-clip-text text-transparent">
-                    cover
+                    click
                   </span>
                 </span>
-                ...
+                .
               </h1>
               <p className="text-md text-white/80">
-                Because if the cover does not impress you what else can?
+                Because the best UX feels like it knew you&apos;d be there —
+                and great UI is the proof you arrived in style.
               </p>
             </div>
           </div>
