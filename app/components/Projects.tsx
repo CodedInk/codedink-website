@@ -20,9 +20,10 @@ const featuredProjects: Project[] = [
   },
   {
     id: 2,
-    title: "Apple Vision Pro – HR Software Design",
-    description: "A futuristic HR software concept designed for Apple Vision Pro, built in Figma to reimagine attendance, leave tracking, and employee experience - all in one immersive interface.",
-   link: "https://www.figma.com/community/file/1371824014208363481/apple-vision-pro-hr-software-design",
+    title: "GLINT — Native Git, Designed Inside the IDE",
+    description:
+      "Most developers still drop into the terminal or a separate Git client to manage branches, stage hunks, and push. For Glint I designed Git as a first-class surface inside the editor — diffs, branch state, conflict resolution, and history live next to the code they describe. The result is a calmer, more legible Git flow that beginners can read at a glance and senior devs can drive at speed.",
+    link: "https://glint.dev",
     image: "/projects/project-2.png",
   },
 ];
