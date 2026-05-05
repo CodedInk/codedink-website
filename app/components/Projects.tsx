@@ -16,7 +16,7 @@ const featuredProjects: Project[] = [
     description:
       "A native, AI-powered desktop IDE that puts GitHub issues, code, and AI agents in the same window. I led product design end-to-end — from positioning and information architecture to the live UI of Glint Assist, the in-editor AI partner. Issues, branches, the editor, and the assist panel are designed as one workflow, so developers can triage a ticket, ship the fix, and let AI close the loop without context-switching between five tools.",
     link: "https://glint.dev",
-    image: "/projects/project-1.png",
+    image: "/projects/project-1.svg",
   },
   {
     id: 2,
