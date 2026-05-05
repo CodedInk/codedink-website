@@ -12,9 +12,10 @@ interface Project {
 const featuredProjects: Project[] = [
   {
     id: 1,
-    title: "NeuraWeb – Futuristic AI Website Landing Design",
-    description: "A sleek, dark-themed AI-powered landing page concept built in Figma. Designed for modern startups and futuristic digital products, it features glowing neon visuals, immersive UI, and a dynamic tone. The design encapsulates the cutting-edge possibilities of AI and tech, offering a glimpse into the future of online experiences for tech-forward companies.",
-    link: "https://www.figma.com/community/file/1441377868897233703/ai-website-landing-design",
+    title: "GLINT — Issue-Driven AI Development Environment",
+    description:
+      "A native, AI-powered desktop IDE that puts GitHub issues, code, and AI agents in the same window. I led product design end-to-end — from positioning and information architecture to the live UI of Glint Assist, the in-editor AI partner. Issues, branches, the editor, and the assist panel are designed as one workflow, so developers can triage a ticket, ship the fix, and let AI close the loop without context-switching between five tools.",
+    link: "https://glint.dev",
     image: "/projects/project-1.png",
   },
   {
