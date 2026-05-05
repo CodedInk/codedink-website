@@ -24,7 +24,7 @@ const featuredProjects: Project[] = [
     description:
       "Most developers still drop into the terminal or a separate Git client to manage branches, stage hunks, and push. For Glint I designed Git as a first-class surface inside the editor — diffs, branch state, conflict resolution, and history live next to the code they describe. The result is a calmer, more legible Git flow that beginners can read at a glance and senior devs can drive at speed.",
     link: "https://glint.dev",
-    image: "/projects/project-2.png",
+    image: "/projects/project-2.svg",
   },
 ];
 
